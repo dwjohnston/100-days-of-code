@@ -1,10 +1,10 @@
 # Rules of the 100 Days Of Code Challenge
 
 ## Main Commitment
-### *I will code for at least an hour every day for the next 100 days.*
+### *I will either write some side project code, or do some learnings about code each day.*
 
 #### Start Date
-June 25th, 2016. [PUT YOUR DATE HERE]
+September 03 2018
 
 ## Additional Rules
 1. I will tweet about my progress every day -> using the hashtag #100DaysOfCode
