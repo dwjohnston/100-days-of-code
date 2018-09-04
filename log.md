@@ -68,3 +68,12 @@ Prototypes: mentions of concatenative inheritance, prototype delegation, functio
 So I get the composition bit. I can just create an object with the features I want, by concating protypes from various factory functions. I wish the post came with some examples though. 
 
 Well, consider this a little grokked. 
+
+
+*Next day note:* this is long enough to be a blog post. 
+
+
+### Day 1 - Started playing with NewsApi API. 
+
+https://github.com/dwjohnston/sentiment
+
