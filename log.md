@@ -77,3 +77,31 @@ Well, consider this a little grokked.
 
 https://github.com/dwjohnston/sentiment
 
+
+
+### Day 2 - CSS modules, stylized components, CSS methodoligies, etc. 
+
+There's this: 
+
+https://github.com/css-modules/css-modules
+https://css-tricks.com/css-modules-part-1-need/
+
+Ok, so so far I'm getting the idea -but I'm not sure if this is a library or an official standard or what. 
+
+
+Ok, so having a play around with just importing css in JS files in react: https://github.com/dwjohnston/sentiment/commit/ce8ab96924e92e5aba9b6d7e39ba4caccc1a73f6
+
+But this isn't css modules at all. Perhaps create react app needs some configuration for that to work. 
+
+Ok, it looks like I'd missed an important part of the syntax  (`import styles from 'foo.css`), but also it looks like create react app isn't letting me do it, there's some Medium posts; 
+
+https://medium.com/nulogy/how-to-use-css-modules-with-create-react-app-9e44bec2b5c2
+
+that starts off with: 
+
+> You can't - you gotta eject. ;
+
+
+Ok, it looks like it is coming in later versions, but for now I'm using 1.5.2 
+
+
