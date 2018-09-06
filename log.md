@@ -105,3 +105,9 @@ that starts off with:
 Ok, it looks like it is coming in later versions, but for now I'm using 1.5.2 
 
 
+### Day 3 - Create example in react re: rerender.
+
+// Post commit here. 
+
+#### Day 4
+
