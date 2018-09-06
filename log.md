@@ -107,7 +107,10 @@ Ok, it looks like it is coming in later versions, but for now I'm using 1.5.2
 
 ### Day 3 - Create example in react re: rerender.
 
-// Post commit here. 
+// Post commit here. https://github.com/dwjohnston/react-play/commit/fc53ce3ec84ca352202be324dd106e8030e91f97
+
+I need to read this 
+https://robots.thoughtbot.com/react-rendering-misconception
 
 #### Day 4
 
