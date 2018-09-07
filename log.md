@@ -112,5 +112,18 @@ https://github.com/dwjohnston/react-play/commit/fc53ce3ec84ca352202be324dd106e80
 I need to read this 
 https://robots.thoughtbot.com/react-rendering-misconception
 
-#### Day 4
+#### Day 4 - Material UI Styling. 
+
+Uses CSS-in-JS - JSS - https://github.com/cssinjs/jss
+
+Got the syntax, but I don't really understand how it works. 
+https://github.com/dwjohnston/gerrymander-solver/commit/8d2f80899746c550ecb3b9aa591fcbcbfeed2df4
+
+- what is JSS provider? Mine seems to be working without it
+
+Ok, here seems to be the key bit: https://material-ui.com/customization/css-in-js/#withstyles-styles-options-higher-order-component
+
+Obviously I need to read a bit more about how JSS works - and maybe do a non-material-ui play with it. 
+
+
 
