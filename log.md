@@ -125,5 +125,12 @@ Ok, here seems to be the key bit: https://material-ui.com/customization/css-in-j
 
 Obviously I need to read a bit more about how JSS works - and maybe do a non-material-ui play with it. 
 
+Oh here's a cool idea. Write a bot that automatically tweets this if it contains a key word in the commit. Maybe there's already an IFTTT plugin that does it. 
+
+### Day 5 - Difference between stateless functional components and PureComponents, and it's pissing me off. 
+
+https://stackoverflow.com/questions/40703675/react-functional-stateless-component-purecomponent-component-what-are-the-dif
+
+https://github.com/dwjohnston/react-play/commit/dea2679663dd254aaa5ddb6f6d4951122e1d668a
 
 
