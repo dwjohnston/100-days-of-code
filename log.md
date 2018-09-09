@@ -134,3 +134,6 @@ https://stackoverflow.com/questions/40703675/react-functional-stateless-componen
 https://github.com/dwjohnston/react-play/commit/dea2679663dd254aaa5ddb6f6d4951122e1d668a
 
 
+### Day 6 - Set up Zapier for auto tweet when I commit here. 
+
+Test 1. 
