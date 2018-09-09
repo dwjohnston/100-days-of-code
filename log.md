@@ -137,3 +137,6 @@ https://github.com/dwjohnston/react-play/commit/dea2679663dd254aaa5ddb6f6d495112
 ### Day 6 - Set up Zapier for auto tweet when I commit here. 
 
 Test 1. 
+
+- Fixed upload bug on https://geoplanets.io
+- Is Zapier working yet? 
