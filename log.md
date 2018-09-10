@@ -144,3 +144,10 @@ Test 1.
 - This commit shouldn't tweet. 
 
 - But this commit should. 
+
+
+
+### Day 7 - Read some of the Material UI documentation
+
+- Can't say I've grokked a lot. 
+- I also helped a friend debug an nginx issue. 
