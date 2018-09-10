@@ -151,3 +151,4 @@ Test 1.
 
 - Can't say I've grokked a lot. 
 - I also helped a friend debug an nginx issue. 
+- Also, playing with react errors, but it's not working. 
