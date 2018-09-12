@@ -152,10 +152,25 @@ Test 1.
 - Can't say I've grokked a lot. 
 - I also helped a friend debug an nginx issue. 
 - Also, playing with react errors, but it's not working. 
-8`/*-+`````````
-
 
 ### Day 8 - Wrote a blog post
 
 https://medium.com/@david_63019/simple-advice-for-recent-it-graduates-to-upskill-your-career-quickly-db86133b32ac
 
+
+
+### Day - 9 Playing wiht React. 
+
+- Realised that I had been doing React error catching correctly - but in development, it will still shop the in browser error messags. 
+
+https://codepen.io/gaearon/pen/wqvxGa?editors=0010
+
+
+- What is React.Fragment? 
+ - https://reactjs.org/docs/fragments.html
+
+ Oh handle. Lets you define a component as a group of elements, without having an actual DOM containing element. 
+
+
+ Start on understanding how to use themes: 
+ https://material-ui.com/customization/themes/#accessing-the-theme-in-a-component
