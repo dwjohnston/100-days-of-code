@@ -152,3 +152,10 @@ Test 1.
 - Can't say I've grokked a lot. 
 - I also helped a friend debug an nginx issue. 
 - Also, playing with react errors, but it's not working. 
+8`/*-+`````````
+
+
+### Day 8 - Wrote a blog post
+
+https://medium.com/@david_63019/simple-advice-for-recent-it-graduates-to-upskill-your-career-quickly-db86133b32ac
+
