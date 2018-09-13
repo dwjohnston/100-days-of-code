@@ -169,8 +169,137 @@ https://codepen.io/gaearon/pen/wqvxGa?editors=0010
 - What is React.Fragment? 
  - https://reactjs.org/docs/fragments.html
 
- Oh handle. Lets you define a component as a group of elements, without having an actual DOM containing element. 
+ Oh handy. Lets you define a component as a group of elements, without having an actual DOM containing element. 
 
 
  Start on understanding how to use themes: 
  https://material-ui.com/customization/themes/#accessing-the-theme-in-a-component
+
+### Day 10 - Some random react and frontend learnings. 
+
+**What are CSS variables?**
+
+Similar to the way SASS does variables - but natively supported. 
+
+Not supported by IE sooooo. 
+https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
+
+Here's the spec. Was harder to find than it should be: 
+https://drafts.csswg.org/css-variables/#defining-variables
+
+Polyfill: https://stackoverflow.com/questions/46429937/ie11-does-a-polyfill-script-exist-for-css-variables
+
+**What is the React Context API?**
+https://reactjs.org/docs/context.html
+
+Essentially lets you have global variables (like theme) without having to pass them down from the top level element, to every single element. 
+
+As an aside - here's a useful example of them passing react components as props: 
+https://reactjs.org/docs/composition-vs-inheritance.html#containment
+
+Which I asked about here: https://stackoverflow.com/questions/50430352/is-there-any-reason-not-to-pass-react-components-as-properties
+
+
+
+**Providers and Consumer** 
+
+Are used by the Context API. 
+
+Oh wow - ok - so there's this whole fucntion as a child thing, that the consumers use: 
+
+https://reactjs.org/docs/render-props.html#using-props-other-than-render
+
+
+
+**OOP vs Functional** 
+This article is a much better explanation of why OOP is bad. 
+
+https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53
+
+My takeaway - OOP is fine for data modeling  but not for buildin an application. 
+
+
+
+
+**Mayer Reset** 
+Basically explicitly gives your page the same default CSS values accross all browsers: 
+https://meyerweb.com/eric/tools/css/reset/
+
+Is there a polyfill or something that does it? 
+
+A bit more details: 
+
+https://css-tricks.com/reboot-resets-reasoning/
+
+There's normalise.css -
+
+https://necolas.github.io/normalize.css/
+
+ is it still needed? 
+
+https://css-tricks.com/normalize-css-no/
+
+Ok, I searched  specifically for create-react-app, there's an open github issue: 
+
+https://github.com/facebook/create-react-app/issues/2273
+
+So it looks like it's not included by default. 
+
+**What are render props** 
+
+https://reactjs.org/docs/render-props.html
+
+
+it's a prop that is a function that returns a component. 
+
+(ie. the component lets it's parent define its rendering, atleast in part). 
+
+**So it's ok to declare functions in render definitions? I was told to not do that.**
+
+Ok, the React documentaiton does specificially mention this: 
+
+https://reactjs.org/docs/faq-functions.html
+
+> Note:
+
+>Using an arrow function in render creates a new function each time the component renders, which may have performance implications (see below).
+
+But that is what they're doing in their render props documentation. 
+
+And then the very next line: 
+
+>Is it OK to use arrow functions in render methods?
+Generally speaking, yes, it is OK, and it is often the easiest way to pass parameters to callback functions.
+
+>If you do have performance issues, by all means, optimize!
+
+
+**Is function(){}.bind(this) any different to an arrow function?**
+
+https://stackoverflow.com/questions/32535110/what-are-the-differences-if-any-between-es6-arrow-functions-and-functions-boun
+
+
+>Arrow functions don't actually bind a this value. Rather, they don't have one, and when you use this it is looked up like a variable name in the lexical scope. This does allow you to lazily define an arrow function while this is not yet available:
+
+Huh. So are arrow functions finding `this` at the time of running?
+
+No, it's clearly not that. 
+
+
+**What are generator functions?**
+
+https://medium.com/@hidace/javascript-es6-generators-part-i-understanding-generators-93dea22bf1b
+
+
+Ok, I'm going to flag this to read later. 
+
+** More about arrow fucntions at react props** 
+
+https://stackoverflow.com/questions/36677733/why-shouldnt-jsx-props-use-arrow-functions-or-bind
+
+More info here; 
+
+https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
+
+Just need a best practise here? 
+
