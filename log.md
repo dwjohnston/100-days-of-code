@@ -303,3 +303,22 @@ https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-b
 
 Just need a best practise here? 
 
+## Day 11 - React learnings: 
+
+Posted this question, is probably goign to be closed: 
+https://softwareengineering.stackexchange.com/questions/378428/is-material-ui-a-reasonable-solution-for-an-application-whose-design-doesnt-fit
+
+**What are render props?**
+
+https://reactjs.org/docs/render-props.html
+
+Fuctions that you can pass as props, and they render stuff. 
+
+What's the purpose of them? 
+eg. React Router, 
+
+or the Cat/Mouse example they give - in order to render a component (Cat), inside another component (Mouse), give the the other component's state. 
+
+Nice. 
+
+
