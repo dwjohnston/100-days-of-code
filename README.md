@@ -1,5 +1,7 @@
 # I've joined the #100DaysOfCode Challenge
 
+But I'm not one to just do what people tell me blindly, so I've changed the rules. 
+
 ## Contents
 
 * [Rules](rules.md)
@@ -7,7 +9,12 @@
 * [FAQ](FAQ.md)
 * [Resources](resources.md)
 
+
+
 ## Translations
+
+These translations will no longer be accurate given that I've changed several of the markdown files. 
+
 [español](intl/es/README.md) – [français](intl/fr/FAQ-fr.md) – [polski](intl/pl/README.md) - [русский](intl/ru/README-ru.md) - [português do Brasil](intl/pt-br/LEIAME.md) – [deutsch](intl/de/README.md) – [українська](intl/ua/README-ua.md) – [한국어](intl/ko/README-ko.md) – [中文](intl/ch/README.md)
 
 If you want to help by providing a translation of content/rules in the language you know, submit a pull request (or DM me on Twitter @ka11away), adding a sub-folder in the 'intl' folder with the files of the translation there.
@@ -18,8 +25,8 @@ If you want to help by providing a translation of content/rules in the language 
     Also, [here](https://join.slack.com/t/100xcode/shared_invite/enQtMzA2NzUyODY4MTgyLWM2NzMzYzBmZTcwOTk0MzM2YTI5OWQzM2M3ZTVjZTUyMTE0NDk3ZjdiZmExNGU5Mjg3ODgzZTQxODI3YTNjZjA) is a invite link to the 100DaysOfCode Slack channel
 1.  Read [Join the #100DaysOfCode](https://medium.freecodecamp.com/join-the-100daysofcode-556ddb4579e4)
 1.  Fork this repo and commit to the [Log](log.md) or to the Alternative, rapid [R1 Log](r1-log.md) (R1 stands for Round 1) daily. [Example](https://github.com/Kallaway/100-days-kallaway-log).
-1.  **Code minimum an hour every day for the next 100 days.**
-1.  **Encourage at least two other people in the challenge on Twitter every day! Pay it forward!**
+1.  ~~**Code minimum an hour every day for the next 100 days.**~~ Just do something, each day.
+1.  **Encourage at least two other people in the challenge on Twitter every day! Pay it forward!** 
 1.  Change the date in [Rules](rules.md) to the day you've started the challenge.
 1.  Delete the examples in the log, or comment them out, and start filling it with your own content.
 1.  **Tweet your progress every day using the #100DaysOfCode hashtag.**

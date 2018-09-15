@@ -3,4 +3,6 @@
 - What is Gnome? 
 - VS Code Chrome extension
 - What are generator functions? 
-
+- What is snap
+- linux istallation and fingerprints
+- git secret
