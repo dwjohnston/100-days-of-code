@@ -1,8 +1,10 @@
-- Is 'use strict' still relevant? 
-- JSON objects vs fully fledged JS objects. 
-- What is Gnome? 
+- Is 'use strict' still relevant?
+- JSON objects vs fully fledged JS objects.
+- What is Gnome?
 - VS Code Chrome extension
-- What are generator functions? 
+- What are generator functions?
 - What is snap
 - linux istallation and fingerprints
 - git secret
+- github merging when I've clobbered the hi
+- create-react-app scripts
