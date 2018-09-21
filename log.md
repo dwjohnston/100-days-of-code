@@ -330,3 +330,26 @@ I stopped reading around here.
 Did this sandbox to understand nesting in react-jss
 
 https://codesandbox.io/s/0xkm047m5v
+
+## Day 17 - React and Material UI best practises:
+
+Form handling:
+
+For forms, the guide here seems simple enough:
+
+https://reactjs.org/docs/forms.html
+
+There are other libraries like informed - but they seem a bit sketchy.
+
+Material UI margins:
+
+Ok, so it looks like basically everything is done in terms of 8 point units:
+
+https://material.io/design/layout/spacing-methods.html
+
+Hmmm does material use px or dp though?
+
+Oh wow, a pixel isn't a pixel in CSS: https://www.w3.org/TR/css3-values/#absolute-lengths
+
+And grid layout can be used:
+https://material-ui.com/layout/grid/
