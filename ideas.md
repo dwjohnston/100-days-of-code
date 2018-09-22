@@ -8,3 +8,10 @@
 - git secret
 - github merging when I've clobbered the hi
 - create-react-app scripts
+
+## Kubernetes
+
+- ~~Repository naming convention~~
+- Why image pull policy
+- what is an ingress
+- apply/create/deploy

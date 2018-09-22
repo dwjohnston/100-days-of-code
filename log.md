@@ -353,3 +353,59 @@ Oh wow, a pixel isn't a pixel in CSS: https://www.w3.org/TR/css3-values/#absolut
 
 And grid layout can be used:
 https://material-ui.com/layout/grid/
+
+## Day 18 - Kubernetes
+
+**Docker registry vs repository:**
+
+https://stackoverflow.com/questions/34004076/difference-between-docker-registry-and-repository
+
+Registry: Where the images are hosted. eg. cloud provider, self hosted.
+
+Repository: Collection of docker images with the same name, with different tags.
+
+Ok, so what about name spaces?
+
+What I'm wondering about is the naming convention of 'projecta/api:v1', 'projectb/api:v1' etc.
+
+-> Ok, most google results are a bit of a rabbit hole into something completely different, to do with permissions.
+
+So, so docker image naming conventions:
+
+https://forums.docker.com/t/what-is-the-naming-conventions-of-docker-tag/34042
+Awful resource. The docker forums are not very good.
+
+Lets just try manually creating some images with / notation.
+
+Ok, yip, that's possible.
+
+And the documentation here is ok:
+
+https://docs.docker.com/engine/reference/commandline/tag/#extended-description
+
+> An image name is made up of slash-separated name components, optionally prefixed by a registry hostname.
+
+So we can circle back to the registry stuff. For now, we will prefix my imaes with projectname/
+
+**Wiring the nginx image to pass through to the backend**
+
+https://kubernetes.io/docs/tasks/run-application/run-stateless-application-deployment/
+
+Ok, using an ingress might be the right way to do this:
+
+https://kubernetes.io/docs/concepts/services-networking/ingress/
+
+Dictionary definition:
+
+> : the act of entering : ENTRANCE
+> the seal prevents ingress of moisture
+> 2 : the power or liberty of entrance or access
+> an area with restricted ingress
+
+Sounds like nginx to me.
+
+So that's fine - in which case how do I host my react application?
+
+I think for now I'm going to try hosting it in an nginx box, and expose it to ingress with a service.
+
+This is where I got upto, but the ingress didn't seem to be visible on minikube.
