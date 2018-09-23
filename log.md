@@ -409,3 +409,44 @@ So that's fine - in which case how do I host my react application?
 I think for now I'm going to try hosting it in an nginx box, and expose it to ingress with a service.
 
 This is where I got upto, but the ingress didn't seem to be visible on minikube.
+
+## Day 19 - Kubernetes Cont.
+
+Minikube and ingress
+
+https://medium.com/@Oskarr3/setting-up-ingress-on-minikube-6ae825e98f82
+
+Ok, here's the magic:
+
+```
+minikube addons enable ingress
+```
+
+Ugh, we have to do some hostfile hacking. :|
+
+Ok, so now I'm getting to nginx but I'm getting 5XX errors. I'm just going manually expose the deployments with NodePort services just to the check those are working.
+
+Ok yip, those are both workin fine.
+And the expose with the ingress too.
+
+I asked this question:
+
+https://serverfault.com/questions/932212/using-kubernetes-ingress-to-expose-multiple-services-without-exposing-the-servi
+
+For now, i'm going to move forward with using nodeport services.
+
+Ok, now nothing seems to be working.
+
+Ok, so kubernetes isn't expose the deploy properly when I try do it from a yaml.
+
+Ok, I eventually got all this going.
+
+Things I still don't understand:
+
+- How to auto replace a deployment
+- The above question
+- What is cluster ip?
+
+But this should be enough for me to proceed with putting my sentiment project on to a cluster.
+
+Also - Need to update the documentation for the template, lets do that now.
