@@ -18,7 +18,7 @@ Shortcuts:
 
 - Close file browswer
 - Select outward
--
+- 
 
 Snippets in general.
 

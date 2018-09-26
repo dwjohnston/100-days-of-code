@@ -450,3 +450,20 @@ Things I still don't understand:
 But this should be enough for me to proceed with putting my sentiment project on to a cluster.
 
 Also - Need to update the documentation for the template, lets do that now.
+
+## Day 21 - Kubernetes learnings.
+
+- What are endpoints?
+- What's an Enpoints... object?
+- What are namespaces and how do I set them up?
+
+- SSL on GKE
+- Is Load Balancer the right way to go?
+
+Reading this.
+https://cloud.google.com/kubernetes-engine/docs/tutorials/http-balancer
+
+I think I'm getting there
+
+Services don't need to be exposed in order to be accessed byt eh ingress yeah?
+I shoudl answer that question to my question from the other day.
