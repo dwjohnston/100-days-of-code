@@ -467,3 +467,35 @@ I think I'm getting there
 
 Services don't need to be exposed in order to be accessed byt eh ingress yeah?
 I shoudl answer that question to my question from the other day.
+
+# Day 23 - Kubernetes secrets and environment variables.
+
+This is a good post:
+
+https://softwareengineering.stackexchange.com/questions/283715/what-is-the-preferred-way-to-store-application-configurations
+
+Ok, so I'm just using git secret to completely hide, but still version control, my prod config files.
+
+I don't like it, but I guess it's ok for now.
+
+
+
+# Day 46 - Some learnings. 
+
+**What are React hooks** 
+
+Didn't watch the whole thing - but basically a way to access state in a SFC. 
+
+**Code splitting in react**
+
+Looks easy enough: 
+
+https://facebook.github.io/create-react-app/docs/code-splitting
+
+**CDN for authenticated content**
+
+Someone has asked this here: 
+
+https://webmasters.stackexchange.com/questions/1076/cdn-for-authenticated-sites
+
+

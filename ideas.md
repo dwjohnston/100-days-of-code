@@ -12,6 +12,17 @@
 - Tables in md.
 - absolute import react
 
+## React/PWA
+
+- Code splitting
+- Blur images
+- CDNs for libraries. 
+- Understand pure fucntions properly
+- Generally getting high lighthouse scores. 
+- CDNs for your own content, especially for authenticated. 
+
+
+
 ## VS code
 
 Shortcuts:
