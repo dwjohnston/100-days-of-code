@@ -499,3 +499,7 @@ Someone has asked this here:
 https://webmasters.stackexchange.com/questions/1076/cdn-for-authenticated-sites
 
 
+# Day 47 - Asked a prettier question
+
+https://softwarerecs.stackexchange.com/questions/53051/eslint-and-or-prettier-plugin-that-will-format-javascript-and-jsx-arguments-on-n
+

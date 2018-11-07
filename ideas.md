@@ -29,7 +29,7 @@ Shortcuts:
 
 - Close file browswer
 - Select outward
-- 
+- Prettier 
 
 Snippets in general.
 
