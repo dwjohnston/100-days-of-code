@@ -20,7 +20,7 @@
 - Understand pure fucntions properly
 - Generally getting high lighthouse scores. 
 - CDNs for your own content, especially for authenticated. 
-
+- server side rendering
 
 
 ## VS code
@@ -32,6 +32,8 @@ Shortcuts:
 - Prettier 
 
 Snippets in general.
+configure VS code to always start command on a new line
+
 
 ## Kubernetes
 

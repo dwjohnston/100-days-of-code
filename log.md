@@ -503,3 +503,8 @@ https://webmasters.stackexchange.com/questions/1076/cdn-for-authenticated-sites
 
 https://softwarerecs.stackexchange.com/questions/53051/eslint-and-or-prettier-plugin-that-will-format-javascript-and-jsx-arguments-on-n
 
+# Day 48 - Best practises for adding google analytics to a react app? 
+https://softwareengineering.stackexchange.com/questions/381155/best-practise-tidy-way-for-adding-google-analytics-to-a-react-application
+
+# Day 49 - Looked at a react SSR template. 
+
