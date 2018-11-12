@@ -507,4 +507,34 @@ https://softwarerecs.stackexchange.com/questions/53051/eslint-and-or-prettier-pl
 https://softwareengineering.stackexchange.com/questions/381155/best-practise-tidy-way-for-adding-google-analytics-to-a-react-application
 
 # Day 49 - Looked at a react SSR template. 
+# Day 50 - Played around the SSR template
+# Day 51 - Netlify vs Isomorphic React
+See this: 
+https://www.netlify.com/blog/2017/06/06/jamstack-vs-isomorphic-server-side-rendering/
+
+
+So basically I have a week of free work - I'm deciding what I'm doing with it. 
+
+New roles is going to be kubernetes so it's tempting to go down that path. 
+But I am pretty keen to get this Netlify workflow going - so I reckon lets give that a go. 
+
+I will need to: 
+
+- find a Netlify react template. 
+- Work out how to do the domain mapping. 
+- Test that SSR/static resources are working. 
+- Test that it works for dynamic meta tags. 
+- 
+
+
+Ok, being having a play around. 
+
+Here's the thing. Netlify is just static hosting, that's fine. And then if you want to have pre rendered stuff - you could use a service like Gatsby - that gives you vendor lock in. 
+
+I'm thinking I might abandon the the quest to use netlify - I might look at traditional CI/CD and heroku instead. 
+
+Oooooor, I could give Gatsby a go. I reckon lets do it. 
+
+
+- I've got stuck on images. 
 
