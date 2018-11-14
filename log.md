@@ -538,3 +538,7 @@ Oooooor, I could give Gatsby a go. I reckon lets do it.
 
 - I've got stuck on images. 
 
+# Day 52 - Got gatsby working. Is more complicated than I like. 
+
+# Day 53 - Started a new project  - Quarter cog. 
+
